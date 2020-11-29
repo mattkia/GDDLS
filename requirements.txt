@@ -1,0 +1,11 @@
+numpy
+scipy
+scikit-learn
+scikit-image
+matplotlib
+pandas
+torch
+torchvision
+opencv-python
+opencv-contrib-python
+plotly

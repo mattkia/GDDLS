@@ -1,0 +1,28 @@
+# The program must be run in the order below:
+# 1- For a given dataset put the dataset in 'datasets' forlder in a specified folder
+# 2- Dataset folder must have the structure of :
+#   2-1- 'GT' folder and 'Images' folder
+#   2-2- 'GT' and 'Images' folders contain 'Train' and 'Test' folders each (to make Train/Test folders see
+#         train_test_separator.py)
+# 3- Run data_snippet.py (given the dataset name) to make the image files to numpy files
+# 4- Run data_saliency.py (given the dataset name) to make the ground trutch images to saliency (binary) images
+# 5- Use train.py or bce_train.py to train the model
+#
+##################################################################################################
+#
+# The experiments must be conducted as follows
+#
+# --------------------------------------------------------------
+# | Datasets :  CAMO  |  ECSSD  | PASCAL | DUT-OMRON |  HKU-IS |
+# --------------------------------------------------------------
+# | Results of BCE loss without Deep Guided Filter             |
+# | Results of BCE loss with Deep Guided Filter                |
+# --------------------------------------------------------------
+# | Results of GDDLS without BCE and without Deep Guided Filter|
+# | Results of GDDLS without BCE and with Deep Guided Filter   |
+# --------------------------------------------------------------
+# | Results of GDDLS with BCE and without Deep Guided Filter   |
+# | Results of GDDLS with BCE and with Deep Guided Filter      |
+# --------------------------------------------------------------
+#
+#
